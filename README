@@ -1,0 +1,19 @@
+0. Names :-
+
+
+1. Briefly discuss how you implemented each functionality: setting up interfaces, setting up default routes, and setting up per-destination routes.
+
+--> As per the instructions, using "ip address add" command, we performed ip assignment on each interface by going on the device. For h1-h4, One ip address each was assigned to the interface going to the router. In the same way, There were 4 interfaces going to different hosts from router, and all of them were given different ip addresses. To forward the packets from Hosts to router, On each host a default route was added via the interface address going to router. Similarly, on Router, corresponding to the interface going to each host, a rule was added in routing table to forward the packet to respective host.
+
+2. Are there known issues or functions that aren't working currently in your attached code? If so, explain.
+
+--> NO KNOWN ISSUES. 
+
+3. What problems did you face developing code for this project?
+
+--> The command line syntax, working on different hosts and VM and to connect them, the transfer of files between hosts.
+
+4. What did you learn by working on this project?
+
+--> I learned about how does the Networking work and how complex the routes and process of the transfer of packets is.
+
